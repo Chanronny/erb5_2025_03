@@ -3,7 +3,7 @@
   <div class="container">
     <div class="row text-center">
       <div class="col-md-12">
-        <h1 class="display-4">{{listing.title}}</h1>
+        <h1 class="display-4">{{listing.title | title}}</h1>
         <p class="lead"><i class="fas fa-map-marker"></i> {{listing.district}}</p>
       </div>
     </div>
@@ -21,7 +21,7 @@
         <li class="breadcrumb-item">
           <a href="{% url 'listings' %}">Listings</a>
         </li>
-        <li class="breadcrumb-item active">{{listing.title}}</li>
+        <li class="breadcrumb-item active">{{listing.title | title}}</li>
       </ol>
     </nav>
   </div>
@@ -163,7 +163,7 @@
               </li>
               <li class="list-group-item text-secondary">
                 <i class="fas fa-bed"></i> Realtor:
-                <span class="float-right">{{listing.realtor.name}}</span>
+                <span class="float-right">{{listing.realtor.name | title}}</span>
               </li>
             </ul>
           </div>
@@ -186,7 +186,7 @@
           />
           <div class="card-body">
             <h5 class="card-title">Property Realtor</h5>
-            <h6 class="text-secondary">{{listing.realtor.name}}</h6>
+            <h6 class="text-secondary">{{listing.realtor.name | title}}</h6>
           </div>
         </div>
         <button
