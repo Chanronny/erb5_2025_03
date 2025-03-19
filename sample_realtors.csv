@@ -1,0 +1,4 @@
+name,photo,description,phone,email,is_mvp,hire_date
+John Doe,photos/2023/01/01/john.jpg,Experienced realtor with 10 years in the industry,+852 9123 4567,john.doe@example.com,true,2023-01-15
+Jane Smith,photos/2023/01/01/jane.jpg,Specializes in luxury properties,+852 9876 5432,jane.smith@example.com,false,2023-02-20
+Michael Wong,photos/2023/01/01/michael.jpg,Expert in Hong Kong Island properties,+852 9111 2222,michael.wong@example.com,false,2023-03-10

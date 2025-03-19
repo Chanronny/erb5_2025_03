@@ -1,0 +1,4 @@
+realtor_id,title,address,street,district,description,price,bedrooms,bathrooms,clubhouse,sqft,estate_size,is_published,list_date,photo_main,photo_1,photo_2,photo_3,photo_4,photo_5,photo_6
+1,Luxury Apartment in Central,123 Central Road,Central Road,Central & Western,Beautiful luxury apartment with harbor views,8000000,3,2.0,1,1200,0.0,true,2023-04-01,photos/2023/04/01/main.jpg,photos/2023/04/01/1.jpg,photos/2023/04/01/2.jpg,,,,,
+2,Family Home in Sha Tin,456 Sha Tin Avenue,Sha Tin Avenue,Sha Tin,Spacious family home near schools and parks,5500000,4,2.5,0,1800,0.0,true,2023-04-05,photos/2023/04/05/main.jpg,photos/2023/04/05/1.jpg,,,,,
+1,Cozy Studio in Wan Chai,789 Wan Chai Street,Wan Chai Street,Wan Chai,Perfect starter home or investment property,3200000,1,1.0,0,500,0.0,true,2023-04-10,photos/2023/04/10/main.jpg,,,,,,
